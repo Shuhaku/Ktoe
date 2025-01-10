@@ -1,4 +1,4 @@
-package com.example.sessionlogin.security;
+package com.example.ktoe.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

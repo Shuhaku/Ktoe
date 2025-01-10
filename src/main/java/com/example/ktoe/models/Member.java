@@ -1,4 +1,4 @@
-package com.example.sessionlogin.models;
+package com.example.ktoe.models;
 
 import java.time.LocalDateTime;
 

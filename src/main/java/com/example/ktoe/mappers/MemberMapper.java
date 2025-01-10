@@ -1,0 +1,1 @@
+package com.example.ktoe.mappers;import com.example.ktoe.models.Member;import org.apache.ibatis.annotations.Mapper;@Mapperpublic interface MemberMapper {    int insertMember(Member member);}

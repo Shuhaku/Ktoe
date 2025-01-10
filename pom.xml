@@ -10,10 +10,10 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.example</groupId>
-  <artifactId>session-login</artifactId>
+  <artifactId>ktoe</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>session-login</name>
-  <description>session-login</description>
+  <name>ktoe</name>
+  <description>ktoe</description>
   <url/>
   <licenses>
     <license/>

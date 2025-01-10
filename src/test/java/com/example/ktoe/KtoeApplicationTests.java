@@ -1,10 +1,10 @@
-package com.example.sessionlogin;
+package com.example.ktoe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SessionLoginApplicationTests {
+class KtoeApplicationTests {
 
     @Test
     void contextLoads() {
