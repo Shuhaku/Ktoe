@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"><mapper namespace="com.example.ktoe.mappers.DummyMapper">  <insert id="insertDummy" parameterType="com.example.ktoe.models.Dummy">    INSERT INTO dummys (dummy_name)    VALUES (#{dummy_name})  </insert></mapper>

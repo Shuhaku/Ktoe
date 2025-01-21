@@ -1,0 +1,1 @@
+package com.example.ktoe.mappers;import com.example.ktoe.models.Dummy;import org.apache.ibatis.annotations.Mapper;@Mapperpublic interface DummyMapper {    int insertDummy(Dummy dummy);}
