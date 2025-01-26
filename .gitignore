@@ -34,3 +34,6 @@ build/
 
 ### setting
 *.yml
+
+### history
+history.md
