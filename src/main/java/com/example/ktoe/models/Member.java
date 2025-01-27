@@ -13,11 +13,9 @@ public class Member {
     private LocalDateTime createdAt; // 생성 일시
     private LocalDateTime updatedAt; // 수정 일시
 
-    // 기본 생성자
     public Member() {
     }
 
-    // 전체 필드 생성자
     public Member(int id, String username, String password, String email, int status, int isDeleted, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;
         this.username = username;
@@ -29,7 +27,6 @@ public class Member {
         this.updatedAt = updatedAt;
     }
 
-    // Getter와 Setter
     public int getId() {
         return id;
     }
@@ -94,7 +91,6 @@ public class Member {
         this.updatedAt = updatedAt;
     }
 
-    // toString 메서드
     @Override
     public String toString() {
         return "Member{" +
