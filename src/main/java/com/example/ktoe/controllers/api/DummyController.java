@@ -1,4 +1,4 @@
-package com.example.ktoe.controllers;
+package com.example.ktoe.controllers.api;
 
 import com.example.ktoe.models.Dummy;
 import com.example.ktoe.services.DummyService;

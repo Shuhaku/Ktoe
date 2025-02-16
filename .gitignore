@@ -37,3 +37,6 @@ build/
 
 ### history
 history.md
+
+### docker
+/docker/

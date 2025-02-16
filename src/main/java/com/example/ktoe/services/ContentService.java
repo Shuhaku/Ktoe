@@ -34,4 +34,19 @@ public class ContentService {
     public List<Token> getTokensBySentenceId(int sentenceId) {
         return contentMapper.getTokensBySentenceId(sentenceId);
     }
+
+    // Paragraph 개수 조회
+    public int getParagraphCountByContentId(int contentId) {
+        return contentMapper.getParagraphCountByContentId(contentId);
+    }
+
+    // Sentence 개수 조회
+    public int getSentenceCountByContentId(int contentId) {
+        return contentMapper.getSentenceCountByContentId(contentId);
+    }
+
+    // Token 개수 조회
+    public int getTokenCountByContentId(int contentId) {
+        return contentMapper.getTokenCountByContentId(contentId);
+    }
 }

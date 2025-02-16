@@ -17,4 +17,10 @@ public interface ContentMapper {
     List<Sentence> getSentencesByParagraphId(@Param("paragraphId") int paragraphId);
 
     List<Token> getTokensBySentenceId(@Param("sentenceId") int sentenceId);
+
+    int getParagraphCountByContentId(@Param("contentId") int contentId);
+
+    int getSentenceCountByContentId(@Param("contentId") int contentId);
+
+    int getTokenCountByContentId(@Param("contentId") int contentId);
 }
