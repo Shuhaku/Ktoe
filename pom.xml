@@ -9,9 +9,12 @@
     <version>3.4.1</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
+
   <groupId>com.example</groupId>
   <artifactId>ktoe</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>  <!-- ✅ 여기로 이동 -->
+
   <name>ktoe</name>
   <description>ktoe</description>
   <url/>
@@ -145,6 +148,15 @@
               <artifactId>lombok</artifactId>
             </exclude>
           </excludes>
+        </configuration>
+      </plugin>
+      <!-- Maven War Plugin 추가 -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
     </plugins>

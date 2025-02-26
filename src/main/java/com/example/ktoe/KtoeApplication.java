@@ -2,12 +2,11 @@ package com.example.ktoe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class KtoeApplication {
-
+public class KtoeApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(KtoeApplication.class, args);
     }
-
 }
