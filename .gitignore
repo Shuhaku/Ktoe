@@ -39,4 +39,4 @@ build/
 history.md
 
 ### docker
-/docker/
+docker-compose.yml
