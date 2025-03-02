@@ -1,4 +1,5 @@
 import {LitElement, html, css} from '/lit-core.min.js'
+import {showLoading, hideLoading} from '/js/utils/util.js'
 
 export class HomeBody extends LitElement {
   constructor() {
@@ -12,8 +13,12 @@ export class HomeBody extends LitElement {
   }
 
   async firstUpdated() {
+    showLoading()
+    await new Promise((resolve) => setTimeout(resolve, 1000))
     await this.fetchData()
+    hideLoading()
   }
+
   async fetchData() {
     try {
       const spec = await fetch('/api/contents/1')
@@ -53,8 +58,7 @@ export class HomeBody extends LitElement {
   render() {
     return html`
       <div class="container">
-        <p class="title">${this.title}</p>
-
+        <p class="title">${this.title || 'No title available'}</p>
         ${this.content?.length
           ? this.content.map(
               (item) => html`
